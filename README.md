@@ -1,7 +1,7 @@
 # _Your project title_
 
-- _your name_
-- _your email (uoit.net)_
+- Gajan Sivanesan
+- Gajan.Sivanesan@uoit.net
 
 ## About the language
 
