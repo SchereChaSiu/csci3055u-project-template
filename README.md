@@ -14,12 +14,10 @@
 
 > _give some code snippet of the language_
 
-*Let form*
+*How to print "Hello, World!"*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```haskell
+main = putStrLn "Hello, World!"
 ```
 
 ## About the tools
