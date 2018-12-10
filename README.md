@@ -25,7 +25,17 @@ main = putStrLn "Hello, World!"
 doubleItself x = x + x 
 
 main = putStrLn (show (doubleItself 6))
--- outputs 12
+-- >12
+```
+*Basic if-else statement*
+
+```haskell
+doubleSmallNumber x = if x > 100
+                    then x
+                    else x*2
+
+main = putStrLn (show(doubleSmallNumber 5))
+-- >10
 ```
 
 ## About the tools
