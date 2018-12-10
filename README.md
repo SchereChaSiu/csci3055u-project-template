@@ -19,6 +19,14 @@
 ```haskell
 main = putStrLn "Hello, World!"
 ```
+*Sum a number with itself*
+
+```haskell 
+doubleItself x = x + x 
+
+main = putStrLn (show (doubleItself 6))
+-- outputs 12
+```
 
 ## About the tools
 
