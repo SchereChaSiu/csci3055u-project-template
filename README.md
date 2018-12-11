@@ -80,6 +80,7 @@ Haskell uses the Glasgow Haskell Compiler (GHC). It is an open-source native cod
 
 Class ```Array``` Constructs an immutable array from a pair of bounds and a list of initial associations.
 
+``` haskell
 import Data.Array
 
 myArray = array (1, 3) [(1, "a"), (2, "b"), (3, "c")]
