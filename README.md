@@ -83,7 +83,7 @@ Class ```Array``` constructs an immutable array from a pair of bounds and a list
 ``` haskell
 import Data.Array
 
-myArray = array (1, 3) [(1, "a"), (2, "b"), (3, "c")]
+myArray = array (1, 3) [(1, "a"), (2, "b"), (3, "c")] -- create an array
 
 main = do
     print myArray -- prints the array
@@ -135,7 +135,7 @@ Class ```Map``` creates and manipulates maps
 ``` haskell 
 import qualified Data.Map as Map
 
-phoneBook = Map.fromList [(1992, "Gajan"), (2018, "Sivanesan")]
+phoneBook = Map.fromList [(1992, "Gajan"), (2018, "Sivanesan")] -- create a map
 
 main = do
     print phoneBook -- print map
@@ -158,7 +158,42 @@ main = do
     -- > [1992,2018]
     print $ Map.elems phoneBook -- find the elements of the map 
     -- > ["Gajan","Sivanesan"]
-    ```
+```
+
+Class ```Tree``` creates and manipulates trees
+
+``` haskell
+import Data.Tree
+
+tree = Node "A" [Node "B" [], Node "C" [Node "D" [], Node "E" []]] -- create tree
+
+main = do
+    print tree -- print tree
+    putStrLn $ drawTree tree -- draws the tree 
+    {- A
+|
++- B
+|
+`- C
+   |
+   +- D
+   |
+   `- E
+-}
+    putStrLn $ drawForest $ subForest tree -- draws the forests and sub forests
+    {- B
+
+C
+|
++- D
+|
+`- E -}
+
+    print $ flatten tree -- flattens the tree 
+    -- > ["A","B","C","D","E"]
+    print $ levels tree -- level of tree
+    -- >[["A"],["B","C"],["D","E"]]
+```
 
 ## About open source library
 
