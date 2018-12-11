@@ -5,7 +5,7 @@
 
 ## About the language
 
-Haskell is a standardized general-purpose, purely functional programming language with non-strict semantics and strong static typing. It gets its name from Haskell Curry. There are multiple iterations of Haskell  
+Haskell is a standardized general-purpose, purely functional programming language with non-strict semantics and strong static typing. It gets its name from Haskell Brooks Curry. There are multiple iterations of Haskell  
 
 # History
 
