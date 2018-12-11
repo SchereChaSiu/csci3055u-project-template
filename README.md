@@ -71,7 +71,11 @@ main = putStrLn (show(doubleSmallNumber 5))
 
 > _Describe the compiler or interpreter needed_.
 
-Haskell uses the Glasgow Haskell Compiler (GHC). It is an open-source native code compiler for Haskell. The lead developers are Simon Peyton Jones and Simon Marlow. It supports many extensions and libraries as well as having optimizations that streamline the process of generating and executing code. GHC is written in Haskell however the runtime system is written in C and C-. It supports both Haskell 98 and Haskell 2010. 
+Haskell uses the Glasgow Haskell Compiler (GHC). It is an open-source native code compiler for Haskell. The lead developers are Simon Peyton Jones and Simon Marlow. It supports many extensions and libraries as well as having optimizations that streamline the process of generating and executing code. *GHC* is written in Haskell however the runtime system is written in C and C-. It supports both Haskell 98 and Haskell 2010. 
+
+*Cabal* aids in the packaging and distrubution of software packages. It is contained in the Haskwll PLatform.
+
+*Stack* is a tool to build Haskell projects and manage their dependencies. It uses the Cabal library together with a curated version of the Hackage repository. 
 
 ## About the standard library
 
