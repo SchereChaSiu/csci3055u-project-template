@@ -32,11 +32,14 @@ Haskell is a standardized general-purpose, purely functional programming languag
 # Features
 
 * Haskell features lazy evaluation 
-* lambda expressions 
-* pattern matching, list comprehension, type classes and type polymorphism.
+* Lambda expressions 
+* Pattern matching 
+* List comprehension 
+* Type classes
+* Type polymorphism
 * It is a pure functional programming language
 * Has a strong static type system
-* Has an active and growing community with more than 5,4000 third-party open-source libraries and tools. 
+* Has an active and growing community with more than 5,4000 third-party open-source libraries and tools
 
 
 ## About the syntax
@@ -44,13 +47,13 @@ Haskell is a standardized general-purpose, purely functional programming languag
 ```haskell 
 -- inline comment
 {- block comment -}
-7 -- numbers
-3.0
+9 -- numbers
+2.48
 True -- booleans
 False 
-'p' -- characters
-'j'
-"The slow brown fox." -- strings
+'g' -- characters
+'s'
+"Haskell is a pretty interesting language." -- strings
 [1, 2, 3] -- lists
 ```
 
@@ -292,7 +295,7 @@ most of the time, so defining variables doesn’t have to happen all the time.
 * Excellent type safety
 * Executables have high performance
 * Interactive environment (hugs/ghci)
-* Parallelism (using ```par``` and ```pseq```
+* Parallelism (using ```par``` and ```pseq```)
 * Supportive community 
 
 **Cons:** 
