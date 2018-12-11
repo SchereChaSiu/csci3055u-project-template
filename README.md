@@ -31,14 +31,12 @@ Haskell is a standardized general-purpose, purely functional programming languag
 
 # Features
 
-* Haskell features lazy evaluation, lambda expressions, pattern matching, list comprehension, type classes and type polymorphism.
-
+* Haskell features lazy evaluation 
+* lambda expressions 
+* pattern matching, list comprehension, type classes and type polymorphism.
 * It is a pure functional programming language
-
 * Has a strong static type system
-
 * Has an active and growing community with more than 5,4000 third-party open-source libraries and tools. 
-
 
 
 ## About the syntax
