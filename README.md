@@ -43,6 +43,19 @@ Haskell is a standardized general-purpose, purely functional programming languag
 
 ## About the syntax
 
+```haskell 
+-- inline comment
+{- block comment -}
+7 -- numbers
+3.0
+True -- booleans
+False 
+'p' -- characters
+'j'
+"The slow brown fox." -- strings
+[1, 2, 3] -- lists
+```
+
 *How to print "Hello, World!"*
 
 ```haskell
