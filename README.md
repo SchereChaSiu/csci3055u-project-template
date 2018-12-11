@@ -8,13 +8,16 @@
 Haskell is a standardized general-purpose, purely functional programming language with non-strict semantics and strong static typing. It gets its name from Haskell Curry. There are multiple iterations of Haskell  
 
 Haskell 1.0 to 1.4 (1990 – 98)
-	The first version of Haskell was defined in 1990. It had multiple series of language definitions (1.0 – 1.4). 
+
+   The first version of Haskell was defined in 1990. It had multiple series of language definitions (1.0 – 1.4). 
 		
 Haskell 98 (1998 – 2010)
-	In late 1997, Haskell 98 was created. This was intended to be a stable, minimal, and portable version of the language. It also contains a library for teaching. This version would be the base for the next iterations of the language. The committee also welcomed creating extensions and variants of Haskell 98 by adding and incorporating experimental features. 
+
+   In late 1997, Haskell 98 was created. This was intended to be a stable, minimal, and portable version of the language. It also contains a library for teaching. This version would be the base for the next iterations of the language. The committee also welcomed creating extensions and variants of Haskell 98 by adding and incorporating experimental features. 
 		
 Haskell 2010 (2010 – )
-	In early 2006, the committee started defining a successor to Haskell 98. This was going to be an incremental process meaning the language would get revised and updated once a year. In November 2009, Haskell 2010 was announced and released in July 2010. This version contained changes and additions like:
+
+   In early 2006, the committee started defining a successor to Haskell 98. This was going to be an incremental process meaning the language would get revised and updated once a year. In November 2009, Haskell 2010 was announced and released in July 2010. This version contained changes and additions like:
 		
 1.	Hierarchical Module Names 
 2.	The Foreign Function Interface 
