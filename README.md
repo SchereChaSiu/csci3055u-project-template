@@ -29,6 +29,14 @@ Haskell is a standardized general-purpose, purely functional programming languag
 3.	Update to the rules of type interference 
 4.	Changed grammar error in syntax
 
+# Features
+
+Haskell features lazy evaluation, lambda expressions, pattern matching, list comprehension, type classes and type polymorphism. 
+It is a pure functional programming language
+Has a strong static type system
+Has an active and growing community with more than 5,4000 third-party open-source libraries and tools. 
+
+
 
 ## About the syntax
 
