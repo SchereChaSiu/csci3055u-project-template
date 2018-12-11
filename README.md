@@ -267,7 +267,7 @@ sort :: (?cmp :: a -> a -> Bool) => [a] -> [a] -- dynamic scoping
 constructs in the language are simple and easy implement.
 
 6. Haskell has strong typing. Haskell’s typing is also static. This mean that the type of every expression and every variable is 
-knows at compile time. However, Haskell’s interpreters and compilers are smart enough to infer the types of your expressions 
+known at compile time. However, Haskell’s interpreters and compilers are smart enough to infer the types of your expressions 
 most of the time, so defining variables doesn’t have to happen all the time. 
 
 7. 
