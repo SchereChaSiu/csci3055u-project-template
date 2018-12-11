@@ -202,6 +202,31 @@ C
 > _Describe at least one contribution by the open source
 community written in the language._
 
+Hackage is the Haskell community’s central package archive of open source software. http://hackage.haskell.org/
+
+gtk: is the core library of the Gtk2Hs suite of libraries for Haskell based on Gtk+. Gtk+ is an extensive and mature multi-platform toolkit for creating graphical user interfaces. http://hackage.haskell.org/package/gtk
+
+*simple GUI implementation that ouputs "HelloWorld"*
+
+``` haskell 
+{-# LANGUAGE OverloadedLabels #-}
+{-# LANGUAGE OverloadedStrings #-}
+module Main where
+
+import Data.GI.Base
+import qualified GI.Gtk as Gtk
+
+main :: IO ()
+main = do 
+    Gtk.init Nothing
+
+    win <- new Gtk.Window [#title :="HelloWorld"]
+    on win #destroy Gtk.mainQuit
+    #showAll win
+
+    Gtk.main
+
+``` 
 # Analysis of the language
 
 > _Organize your report according to the project description
