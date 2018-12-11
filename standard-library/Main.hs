@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedLabels #-}
 {-# LANGUAGE OverloadedStrings #-}
 -- uses the Gtk module
+-- http://hackage.haskell.org/package/gtk
 module Main where
 
 import Data.GI.Base
