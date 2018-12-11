@@ -227,7 +227,7 @@ main = do
     Gtk.main
 
 ``` 
-*more packages from **Hackage** *
+*more packages from **Hackage***
 
 **http-client:** An HTTP client engine, intended as a base layer for more user-friendly packages. http://hackage.haskell.org/package/http-client
 
