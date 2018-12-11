@@ -78,7 +78,23 @@ Haskell uses the Glasgow Haskell Compiler (GHC). It is an open-source native cod
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
 
-Class ```Enum ``` defines operations on sequentially ordered types.
+Class ```Array``` Constructs an immutable array from a pair of bounds and a list of initial associations.
+
+```haskell
+import Data.Array
+
+myArray = array (1, 3) [(1, "a"), (2, "b"), (3, "c")]
+
+main = do
+    print myArray -- prints the array
+    print $ myArray ! 2 -- value at the given index
+    print $ bounds myArray -- bounds with which the array is constructed
+    print $ indices myArray -- list of indecies in ascending order
+    print $ elems myArray -- list of elements in index order
+    print $ assocs myArray -- list of associations of an array in index order
+ ```
+
+Class ```Enum``` defines operations on sequentially ordered types.
 
 ```haskell
 main = do
