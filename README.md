@@ -240,4 +240,22 @@ main = do
 > _Organize your report according to the project description
 document_.
 
+1. Haskell is a pure functional language. It supports parametric polymorphism (ala C++ templates, but more powerful), and 
+ad-hoc polymorphism through type classes.
+
+2. Template Haskell is a GHC extension to Haskell that adds compile-line meta-programming facilities. It has been included in
+GHC since version 6. Template Haskell allows the user to convert back and forth between concrete syntax and abstract syntax 
+trees.
+
+3. Haskell creates functions with free variables everywhere, thus, closures are created all the time. Some closures are
+optimized out by the compiler.
+
+``` haskell f x = (\y -> x + y) -- f returns a closure```
+
+4. Haskell supports lexical scoping but with the use of an extension to the type class system of Haskell, dynamic scoping can be
+used. This is done by adding a “constraint” to the type making it dynamic. Due to the possible issues that dynamic scoping has,
+it is strongly encouraged NOT to this type of scoping. These constraints lead to types of the form ``` haskell (?x::t') => t ```
+, which says "this function uses a dynamically-bound variable ?x of type t' "
+
+``` haskell 
 
