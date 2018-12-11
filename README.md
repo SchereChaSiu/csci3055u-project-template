@@ -270,20 +270,16 @@ constructs in the language are simple and easy implement.
 knows at compile time. However, Haskell’s interpreters and compilers are smart enough to infer the types of your expressions 
 most of the time, so defining variables doesn’t have to happen all the time. 
 
-7. **Strengths:** 
+7. 
+
+**Strengths:** 
 * Good for people that think mathematically 
-		
-		* Excellent type safety
-		
-		* Executables have high performance
-		
-		* Interactive environment (hugs/ghci)
-		
-		* Parallelism (using ```haskell par``` and ```haskell pseq```
-		
-		* Supportive community 
-	
-	**Cons:** 
-		* Hard to learn 
-		
-		* Libraries not documented well 
+* Excellent type safety
+* Executables have high performance
+* Interactive environment (hugs/ghci)
+* Parallelism (using ```haskell par``` and ```haskell pseq```
+* Supportive community 
+
+**Cons:** 
+* Hard to learn 
+* Libraries not documented well 
