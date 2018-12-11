@@ -1,4 +1,4 @@
-# _Your project title_
+# _Haskell_
 
 - Gajan Sivanesan
 - Gajan.Sivanesan@uoit.net
