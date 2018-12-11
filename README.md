@@ -273,7 +273,7 @@ most of the time, so defining variables doesn’t have to happen all the time.
 7. 
 	**Strengths:** 
 	
-		* Good for people that think mathematically 
+		- Good for people that think mathematically 
 		
 		* Excellent type safety
 		
