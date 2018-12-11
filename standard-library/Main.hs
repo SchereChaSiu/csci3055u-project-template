@@ -1,5 +1,6 @@
 {-# LANGUAGE OverloadedLabels #-}
 {-# LANGUAGE OverloadedStrings #-}
+-- uses the Gtk module
 module Main where
 
 import Data.GI.Base
