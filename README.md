@@ -277,7 +277,7 @@ most of the time, so defining variables doesn’t have to happen all the time.
 * Excellent type safety
 * Executables have high performance
 * Interactive environment (hugs/ghci)
-* Parallelism (using ```haskell par``` and ```haskell pseq```
+* Parallelism (using ```par``` and ```pseq```
 * Supportive community 
 
 **Cons:** 
