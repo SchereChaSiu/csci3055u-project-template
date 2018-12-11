@@ -250,12 +250,31 @@ trees.
 3. Haskell creates functions with free variables everywhere, thus, closures are created all the time. Some closures are
 optimized out by the compiler.
 
-``` haskell f x = (\y -> x + y) -- f returns a closure```
+```haskell f x = (\y -> x + y) -- f returns a closure```
 
 4. Haskell supports lexical scoping but with the use of an extension to the type class system of Haskell, dynamic scoping can be
 used. This is done by adding a “constraint” to the type making it dynamic. Due to the possible issues that dynamic scoping has,
 it is strongly encouraged NOT to this type of scoping. These constraints lead to types of the form ``` haskell (?x::t') => t ```
 , which says "this function uses a dynamically-bound variable ?x of type t' "
 
-``` haskell 
+```haskell sort :: (?cmp :: a -> a -> Bool) => [a] -> [a] -- dynamic scoping ```
 
+5. Haskell is a fully functional based program. The constructs are in the language itself. As for all functional languages the
+constructs in the language are simple and easy implement.
+
+6. Haskell has strong typing. Haskell’s typing is also static. This mean that the type of every expression and every variable is 
+knows at compile time. However, Haskell’s interpreters and compilers are smart enough to infer the types of your expressions 
+most of the time, so defining variables doesn’t have to happen all the time. 
+
+7. 
+	**Strengths:** 
+		Good for people that think mathematically 
+		Excellent type safety
+		Executables have high performance 
+		Interactive environment (hugs/ghci)
+		Parallelism (using ```haskell par``` and ```haskell pseq```
+		Supportive community 
+	
+	**Cons:** 
+		Hard to learn 
+		Libraries not documented well 
