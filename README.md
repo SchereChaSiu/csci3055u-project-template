@@ -8,7 +8,6 @@
 Haskell is a standardized general-purpose, purely functional programming language with non-strict semantics and strong static typing. It gets its name from Haskell Curry. There are multiple iterations of Haskell  
 
 ## History
-==========
 
 Haskell 1.0 to 1.4 (1990 – 98)
 ------------------------------
