@@ -78,7 +78,7 @@ Haskell uses the Glasgow Haskell Compiler (GHC). It is an open-source native cod
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
 
-Class ```haskell Enum ``` defines operations on sequentially ordered types.
+Class ```Enum ``` defines operations on sequentially ordered types.
 
 ```haskell
 main = do
