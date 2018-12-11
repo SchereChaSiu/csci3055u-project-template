@@ -202,9 +202,9 @@ C
 > _Describe at least one contribution by the open source
 community written in the language._
 
-Hackage is the Haskell community’s central package archive of open source software. http://hackage.haskell.org/
+**Hackage** is the Haskell community’s central package archive of open source software. http://hackage.haskell.org/
 
-gtk: is the core library of the Gtk2Hs suite of libraries for Haskell based on Gtk+. Gtk+ is an extensive and mature multi-platform toolkit for creating graphical user interfaces. http://hackage.haskell.org/package/gtk
+**gtk:** is the core library of the Gtk2Hs suite of libraries for Haskell based on Gtk+. Gtk+ is an extensive and mature multi-platform toolkit for creating graphical user interfaces. http://hackage.haskell.org/package/gtk
 
 *simple GUI implementation that ouputs "HelloWorld"*
 
@@ -227,6 +227,14 @@ main = do
     Gtk.main
 
 ``` 
+*more packages from **Hackage** *
+
+**http-client:** An HTTP client engine, intended as a base layer for more user-friendly packages. http://hackage.haskell.org/package/http-client
+
+**yaml:** Support for parsing and rendering YAML documents. https://github.com/snoyberg/yaml#readme
+
+**aeson:** A JSON parsing and encoding library optimized for ease of use and high performance. http://hackage.haskell.org/package/aeson
+
 # Analysis of the language
 
 > _Organize your report according to the project description
